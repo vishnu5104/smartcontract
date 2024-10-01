@@ -1,0 +1,10 @@
+{
+    "build": {
+        "env": {
+            "BUILD_DIR": "./src/wasm"
+        },
+        "commands": {
+            "prepare": "bash ./src/wasm/build.sh && yarn install"
+        }
+    }
+}
